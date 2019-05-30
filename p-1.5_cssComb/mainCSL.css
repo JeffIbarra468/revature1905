@@ -1,3 +1,6 @@
+body {
+    background-color: beige;
+}
 header {
     background-image: url(hands-parent-child.jpg);
     height: 200px; 
@@ -6,12 +9,23 @@ header {
 
 .div1 {
     background-color: aqua;
+    
 }
 .div2 {
     background-color: orange;
     margin-left: 10%;
 }
 .div3 {
+    font-style: oblique;
     background-color: gray;
     margin-left: 10%;
+}
+#naruto {
+    background-color: blueviolet;
+}
+div>p#boruto {
+    font-size: 130%;
+    
+    background-color: rgb(219, 139, 139);
+    margin-left: 30px;
 }
