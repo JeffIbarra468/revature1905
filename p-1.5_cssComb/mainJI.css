@@ -1,0 +1,38 @@
+body {
+    background-color: grey;
+}
+
+nav {
+    display: block;
+    padding: 10px;
+    margin: 30px;
+    background-image: url("Tools-for-Structuring-Optimizing-Your-CSS-Code.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    /*backgroundrepeat: no-repeat;*/
+    background-size: cover;
+    
+}
+
+h1 {
+    color: orange;
+}
+
+nav>a {
+    color: whitesmoke;
+    text-decoration-line: underline;
+}
+
+/* Link is hovered */
+nav>a:hover {
+    color: blue;
+}
+
+/* Link has been visited */
+nav>a:visited {
+    color: red;
+}
+
+span {
+    font-size: 20px;
+}
