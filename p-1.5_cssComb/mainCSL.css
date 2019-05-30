@@ -1,0 +1,17 @@
+header {
+    background-image: url(hands-parent-child.jpg);
+    height: 200px; 
+    background-size: cover;
+}
+
+.div1 {
+    background-color: aqua;
+}
+.div2 {
+    background-color: orange;
+    margin-left: 10%;
+}
+.div3 {
+    background-color: gray;
+    margin-left: 10%;
+}
