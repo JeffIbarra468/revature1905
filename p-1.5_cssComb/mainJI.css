@@ -1,5 +1,10 @@
 body {
-    background-color: grey;
+    background-image: url("winter-here-text-scene-background-450w-664546687.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 36%;
 }
 
 nav {
@@ -8,14 +13,11 @@ nav {
     margin: 30px;
     background-image: url("Tools-for-Structuring-Optimizing-Your-CSS-Code.jpg");
     background-color: #cccccc;
-    background-position: center;
-    /*backgroundrepeat: no-repeat;*/
-    background-size: cover;
-    
+    background-position: top;
 }
 
 h1 {
-    color: orange;
+    color:white;
 }
 
 nav>a {
@@ -35,4 +37,9 @@ nav>a:visited {
 
 span {
     font-size: 20px;
+}
+
+main {
+    color: rgb(177, 46, 177);
+    font-weight: bold;
 }
