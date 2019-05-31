@@ -51,4 +51,5 @@ main {
     font-weight: bold;
     background-color: whitesmoke;
     overflow-y: scroll;
+    margin-right: 50%;
 }
