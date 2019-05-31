@@ -14,27 +14,40 @@ header {
     background-color: aqua; /* Color is behind all divs, even if you can't see */
     text-decoration: underline; /* All child text is also underlined from this point on */ 
 }
-.div2 {     /* FATHER */
+div.div1>.div2 {     /* FATHER */
     background-color: orange; /* ORANGE color writes over AQUA color, but only in second div */ 
     margin-left: 10%;           /* Indents father as well as SON */ 
 }
-.div3 {     /* SON */ 
+.div2>.div3 {     /* SON */ 
     font-style: oblique; /* Changes font in SON, but does NOT apply up the family tree */ 
     background-color: gray;
     margin-left: 10%; /* This adds another 10% indent on top of the indent the FATHER passed on */ 
 }
-#naruto {
-    background-color: blueviolet;
-}
-div>p#boruto {
-    font-size: 130%;
-    
-    background-color: rgb(219, 139, 139);
-    margin-left: 30px;
-}
+
 .inline {
     display: inline-block;
 }
 .inline2 {
     display: inline-block;
+}
+.inline3 {
+    display: inline-block;
+}
+
+ol {
+    font-size: 200%; 
+    margin-left: 10%;
+    /* color: beige; */
+}
+ol li {
+    font-weight: bold;
+}
+ol      ul {
+    font-style: italic;
+}
+ol ul li {
+    text-decoration: underline;
+}
+#longclaw div {
+    color: red;
 }

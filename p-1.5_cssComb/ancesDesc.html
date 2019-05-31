@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" type="text/css" media="screen" href="mainCSL.css" />
-   <title>Document</title>
+   <title>Ancestor & Descendant</title>
 </head>
 <body>
    <nav>
@@ -13,6 +13,37 @@
        <a href="adjacSib.html">Adjacent Sibling Relationship</a> |
        <a href="genSib.html">General Sibling Relationship</a> |
    </nav>
+   <header>
+      <center>
+          <h1>Ancestor-Descendant Relationship in HTML/CSS/JS</h1>
+      </center>
+  </header>
+
+  <h1 class="inline3">Valyrian Swords of Westeros</h1>
+  <button class="inline3" id="btn3">Show List</button>
+  <span id="swords">
+   <ol>
+      <li>Heartsbane</li>
+            <div>Given to Jorah by Sam</div>
+      <li>Ice
+         <ul>
+            <li>Oathkeeper
+               <ul>
+                  <div>-Given to Brienne by Jaime</div>
+               </ul>
+            </li>
+            <li>Widow's Wail</li>
+         </ul>
+      </li>
+      <li id="longclaw">Longclaw
+         <ul>
+            <div>-Given from Jon by Jeor</div>
+         </ul>
+      </li>
+      <li>Blackfyre</li>
+   </ol>
+  </span>
 
 </body>
+<script src="parchild.js"></script>
 </html>
