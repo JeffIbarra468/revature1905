@@ -12,7 +12,6 @@ header {
 
 .div1 {     /* GRANDPA */
     background-color: aqua; /* Color is behind all divs, even if you can't see */
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline; /* All child text is also underlined from this point on */ 
 }
 .div2 {     /* FATHER */
@@ -32,4 +31,10 @@ div>p#boruto {
     
     background-color: rgb(219, 139, 139);
     margin-left: 30px;
+}
+.inline {
+    display: inline-block;
+}
+.inline2 {
+    display: inline-block;
 }
