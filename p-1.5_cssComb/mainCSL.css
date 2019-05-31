@@ -33,7 +33,12 @@ div.div1>.div2 {     /* FATHER */
 .inline3 {
     display: inline-block;
 }
-
+.inline4 {
+    display: inline-block;
+}
+#swords {
+    display: none;
+}
 ol {
     font-size: 200%; 
     margin-left: 10%;
