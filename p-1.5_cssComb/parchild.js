@@ -8,7 +8,7 @@ let clicked = false;
 btn.addEventListener("click", () => {
     clicked = !clicked;
     if (clicked) {
-        document.getElementById("Rhaegar").style.backgroundColor = "white";
+        document.getElementById("Rhaegar").style.backgroundColor = "transparent";
     }
     else {
         document.getElementById("Rhaegar").style.backgroundColor = "orange";
