@@ -10,14 +10,18 @@
 <body>
     <nav>
         <center><h1>CSS Combinations</h1></center>
-        <a href="index.html">Home</a>
-        <a href="parentChild.html">Parent-Child Relationships</a>
-        <a href="ancesDesc.html">Ancestor-Descendant Relationships</a>
-        <a href="genSib.html">General Sibling Relationships</a>
+        <a id ="hypLink"></a>
+        <center><a href="parentChild.html">Parent-Child Relationships</a> |
+        <a href="ancesDesc.html">Ancestor-Descendant Relationships</a> |
+        <a href="genSib.html">General Sibling Relationships</a></center>
     </nav>
-    <main>
+    <div>
+    <button id="btn">Change text color</button>
+    </div>
+    <main id = "main-text">
         <left><h2>Adjacent Sibling Relationships</h2></left>
-        <span>For the adjacent sibling CSS combination, we use the "+" sign
+        
+        <p>For the adjacent sibling CSS combination, we use the "+" sign
             to denote relations between the different selectors of CSS.
             
             What the "+" specifies is that the two selectors are immediately
@@ -31,14 +35,25 @@
             Adjacent siblings are like siblings in real life only that 
             they are born next to each other.
             <br>
-            Game of Thornes refernce: 
+            <ul>Parents: Catelyn Stark and Ned Stark
+                <ol>
+                    <li>Robb Stark</li>
+                    <li>Sansa Stark</li>
+                    <li>Ayra Stark</li>
+                    <li>Bran Stark</li>
+                    <li>Rickon Stark</li>
+                </ol> 
+            </ul>
             <br>
-            Robb Stark+Sansa Stark  { <br>
-                They are siblings born one after the other;
+            Robb Stark + Sansa Stark  { <br>
+                // They are siblings born one after the other; <br>
             }
-        </span>
+        </p>
 
 
     </main>    
 </body>
+<!-- Any js files you don't need to be loaded early,
+     should go down here below the body -->
+    <script src="domJI.js"></script>
 </html>

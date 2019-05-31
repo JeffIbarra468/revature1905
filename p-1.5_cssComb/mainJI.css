@@ -1,45 +1,54 @@
 body {
     background-image: url("winter-here-text-scene-background-450w-664546687.jpg");
-    background-color: #cccccc;
+    background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 36%;
 }
 
+
 nav {
     display: block;
     padding: 10px;
-    margin: 30px;
+    margin: 30px,30px,30px,30px;
     background-image: url("Tools-for-Structuring-Optimizing-Your-CSS-Code.jpg");
-    background-color: #cccccc;
+    background-color:black;
     background-position: top;
 }
+
 
 h1 {
     color:white;
 }
 
-nav>a {
+
+a {
     color: whitesmoke;
     text-decoration-line: underline;
+    text-align: center;
+    display: inline-block;
 }
 
 /* Link is hovered */
-nav>a:hover {
+a:hover {
     color: blue;
 }
 
 /* Link has been visited */
-nav>a:visited {
-    color: red;
+a:visited {
+    color:rgb(198,89,221);
 }
 
-span {
+
+p {
     font-size: 20px;
 }
 
+
 main {
-    color: rgb(177, 46, 177);
+    color:black;
     font-weight: bold;
+    background-color: whitesmoke;
+    overflow-y: scroll;
 }

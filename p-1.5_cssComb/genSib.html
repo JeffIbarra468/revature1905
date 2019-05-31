@@ -10,14 +10,17 @@
 <body>
         <nav>
                 <center><h1>CSS Combinations</h1></center>
-                <a href="index.html">Home</a>
-                <a href="parentChild.html">Parent-Child Relationships</a>
-                <a href="ancesDesc.html">Ancestor-Descendant Relationships</a>
-                <a href="adjacSib.html">Adjacent Sibling Relationships</a>
+                <center><a href="parentChild.html">Parent-Child Relationships</a> |
+                <a href="ancesDesc.html">Ancestor-Descendant Relationships</a> |
+                <a href="adjacSib.html">Adjacent Sibling Relationships</a> </center>
         </nav>
-        <main>
+        <div>
+        <button id="btn">Change text color</button>
+        </div>
+        <main id="main-text">
                 <left><h2>General Sibling Relationships</h2></left>
-                <span>The general sibling CSS combination use 
+                
+                <p>The general sibling CSS combination use 
                 the "~" sign to denote relations between the different
                 selectors of CSS.
             
@@ -29,17 +32,28 @@
                 sign instead.
                 <br>
                 <br>
-                General siblings are like siblings in real life
-                only that they are born next to each other.
+                Like siblings in real life, general siblings have the same
+                parents, regardless the order they were born.
                 <br>
-                Game of Thornes refernce: 
+                <ul>Parents: Catelyn Stark and Ned Stark
+                        <ol>
+                            <li>Robb Stark</li>
+                            <li>Sansa Stark</li>
+                            <li>Ayra Stark</li>
+                            <li>Bran Stark</li>
+                            <li>Rickon Stark</li>
+                        </ol> 
+                </ul> 
                 <br>
-                Robb Stark~Ayra Stark  { <br>
-                        They are siblings with the same parents;
+                Robb Stark ~ Ayra Stark { <br>
+                        // They are siblings with the same parents; <br>
                 }
-                </span>
+                </p>
 
         </main>
 
 </body>
+<!-- Any js files you don't need to be loaded early,
+     should go down here below the body -->
+     <script src="domJI.js"></script>
 </html>
